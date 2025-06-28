@@ -1,5 +1,12 @@
 {
+  "name": "bites-json-server",
+  "version": "1.0.0",
+  "description": "JSON Server for offlinebites app",
+  "main": "index.js",
+  "scripts": {
+"start": "json-server --host 0.0.0.0 --watch db.json --port 5000"
+  },
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.3"
   }
 }
